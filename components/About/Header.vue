@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="img mt-80" data-overlay-dark="4">
-      <img src="/assets/imgs/b3.jpg" alt="" />
+      <img src="/assets/imgs/b6.jpg" alt="" />
     </div>
   </header>
 </template>

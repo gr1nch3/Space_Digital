@@ -5,15 +5,20 @@
         <div class="col-lg-12">
           <div class="vid-intro">
             <div class="video-container">
-              <video autoPlay loop muted>
+              <img src="/assets/imgs/b4.jpg" alt="" srcset="">
+
+              <!-- <video autoPlay loop muted>
                 <source src="/assets/vid/vid-startup.mp4" type="video/mp4" />
-              </video>
+              </video> -->
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container section-padding">
+    
+
+    <!-- landing section removed -->
+    <!-- <div class="container section-padding">
       <div class="row">
         <div class="col-lg-4">
           <div class="sec-head">
@@ -79,6 +84,8 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+
+
   </section>
 </template>

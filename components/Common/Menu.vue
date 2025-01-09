@@ -144,28 +144,28 @@
         <div class="col-lg-4 valign">
           <div class="cont-info">
             <div class="item mb-50">
-              <h6 class="text-u fw-600 mb-20">Base</h6>
-              <p class="fw-400 fz-18">Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
+              <h6 class="text-u fw-600 mb-20">Location</h6>
+              <p class="fw-400 fz-18">Old Road Monrovia, Liberia</p>
             </div>
             <div class="item mb-50">
               <h6 class="text-u fw-600 mb-20">How to Connect</h6>
-              <p class="fw-400 fz-18">+2 456 34324 45</p>
-              <p class="fw-400 fz-18">hello@Bayone.com</p>
+              <a href="tel:+231 881 791 949">+231 881 791 949</a><br>
+              <a href="mailto:hello@spaceedigital.com">hello@spaceedigital.com</a>
             </div>
             <div class="bottom">
               <h6 class="text-u fw-600 mb-20">Follow Us</h6>
               <ul class="rest social-text d-flex fz-13">
                 <li class="mr-20">
-                  <a href="/#0" class="hover-this"><span class="hover-anim">Facebook</span></a>
+                  <a target="_blank" ref="noopener noreferrer" href="https://www.facebook.com/space.digitals" class="hover-this"><span class="hover-ani">Facebook</span></a>
                 </li>
                 <li class="mr-20">
-                  <a href="/#0" class="hover-this"><span class="hover-anim">Twitter</span></a>
+                  <a target="_blank" ref="noopener noreferrer" href="https://www.x.com/spaceedigital" class="hover-this"><span class="hover-ani">Twitter</span></a>
                 </li>
                 <li class="mr-20">
-                  <a href="/#0" class="hover-this"><span class="hover-anim">LinkedIn</span></a>
+                  <a target="_blank" ref="noopener noreferrer" href="https://www.linkedin.com/company/spaceedigital" class="hover-this"><span class="hover-ani">LinkedIn</span></a>
                 </li>
                 <li>
-                  <a href="/#0" class="hover-this"><span class="hover-anim">Instagram</span></a>
+                  <a target="_blank" ref="noopener noreferrer" href="https://www.instagram.com/spacee.digital" class="hover-this"><span class="hover-ani">Instagram</span></a>
                 </li>
               </ul>
             </div>

@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "numb": "01",
+        "title": "Integrity",
+        "icon": "/assets/imgs/serv-icons/0.png",
+        "content": " Our actions are guided by honesty, transparency, and ethical behavior. We uphold the highest standards of integrity in all our interactions, both internally and externally."
+    },
+    {
+        "id": 2,
+        "numb": "02",
+        "title": "Excellence",
+        "icon": "/assets/imgs/serv-icons/0.png",
+        "content": " We never compromise on excellence.We challenge ourselves and push boundaries to deliver results that exceed expectations and leave a lasting impression."
+    },
+    {
+        "id": 3,
+        "numb": "03",
+        "title": "Quality",
+        "icon": "/assets/imgs/serv-icons/0.png",
+        "content": " We do not settle for ‘less’. Our attention to detail ensures every element, from code to the design, is well polished. We believe quality is an investment, not an expense."
+    },
+       {
+        "id": 4,
+        "numb": "04",
+        "title": "Mastery",
+        "icon": "/assets/imgs/serv-icons/0.png",
+        "content": " We are masters of our craft. We continuously learn, evolve, and refine our skills, staying ahead of the curve. Our thirst for knowledge fuels our innovation. "
+    },
+    {
+        "id": 5,
+        "numb": "05",
+        "title": "Speed",
+        "icon": "/assets/imgs/serv-icons/0.png",
+        "content": "We work e ciently, meeting deadlines without compromising on excellence"
+    }
+]

@@ -7,6 +7,7 @@
       <main class="main-bg">
         <AboutHeader />
         <AboutIntro />
+        <CoreValues />
         <AboutVideo />
         <AboutTeam />
         <AboutTestimonials />
@@ -17,6 +18,8 @@
 </template>
 
 <script setup>
+import CoreValues from '~/components/About/CoreValues.vue';
+
 //= Page Head
 useHead({
   titleTemplate: `%s - About`,

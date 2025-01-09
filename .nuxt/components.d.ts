@@ -2,7 +2,8 @@
 import type { DefineComponent, SlotsType } from 'vue'
 type IslandComponent<T extends DefineComponent> = T & DefineComponent<{}, {refresh: () => Promise<void>}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, SlotsType<{ fallback: { error: unknown } }>>
 interface _GlobalComponents {
-      'AboutHeader': typeof import("../components/About/Header.vue")['default']
+      'AboutCoreValues': typeof import("../components/About/CoreValues.vue")['default']
+    'AboutHeader': typeof import("../components/About/Header.vue")['default']
     'AboutIntro': typeof import("../components/About/Intro.vue")['default']
     'AboutTeam': typeof import("../components/About/Team.vue")['default']
     'AboutTestimonials': typeof import("../components/About/Testimonials.vue")['default']
@@ -109,7 +110,8 @@ interface _GlobalComponents {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
-      'LazyAboutHeader': typeof import("../components/About/Header.vue")['default']
+      'LazyAboutCoreValues': typeof import("../components/About/CoreValues.vue")['default']
+    'LazyAboutHeader': typeof import("../components/About/Header.vue")['default']
     'LazyAboutIntro': typeof import("../components/About/Intro.vue")['default']
     'LazyAboutTeam': typeof import("../components/About/Team.vue")['default']
     'LazyAboutTestimonials': typeof import("../components/About/Testimonials.vue")['default']
@@ -222,6 +224,7 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
+export const AboutCoreValues: typeof import("../components/About/CoreValues.vue")['default']
 export const AboutHeader: typeof import("../components/About/Header.vue")['default']
 export const AboutIntro: typeof import("../components/About/Intro.vue")['default']
 export const AboutTeam: typeof import("../components/About/Team.vue")['default']
@@ -329,6 +332,7 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
+export const LazyAboutCoreValues: typeof import("../components/About/CoreValues.vue")['default']
 export const LazyAboutHeader: typeof import("../components/About/Header.vue")['default']
 export const LazyAboutIntro: typeof import("../components/About/Intro.vue")['default']
 export const LazyAboutTeam: typeof import("../components/About/Team.vue")['default']

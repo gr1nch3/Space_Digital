@@ -2,29 +2,29 @@
   {
     "id": 1,
     "icon": "/assets/imgs/serv-icons/0.png",
-    "title": "Digital Marketing",
-    "description": "Brand identity design is the key to success whether you breathe rebranding.",
+    "title": "Art Direction",
+    "description": "We dedicate time to understanding your business, creating strategies that maximize your brand's impact.",
     "link": "/about"
   },
   {
     "id": 2,
     "icon": "/assets/imgs/serv-icons/1.png",
     "title": "Brand Strategy",
-    "description": "Brand identity design is the key to success whether you breathe rebranding.",
+    "description": "We empower individuals and businesses to build powerful brands. Bring new brands to life and breathe new life into existing ones.",
     "link": "/about"
   },
   {
     "id": 3,
     "icon": "/assets/imgs/serv-icons/2.png",
-    "title": "SEO Optimization",
-    "description": "Brand identity design is the key to success whether you breathe rebranding.",
+    "title": "UX & UI",
+    "description": "Seamless experiences, stunning visuals. Our UX/UI design services create digital products that are both functional and beautiful",
     "link": "/about"
   },
   {
     "id": 4,
     "icon": "/assets/imgs/serv-icons/0.png",
-    "title": "Content Creation",
-    "description": "Brand identity design is the key to success whether you breathe rebranding.",
+    "title": "Engineering",
+    "description": "We develop innovative products and systems with a human-centered approach, ensuring technology integrates into people's lives.",
     "link": "/about"
   }
 ]

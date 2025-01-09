@@ -4,7 +4,9 @@
       <div class="row justify-content-center">
         <div class="col-lg-11">
           <div class="caption text-center">
-            <h1 class="fz-60">Branding, websites and digital experiences, crafted with love, intelligence and precision.
+            <h1 class="fz-60">
+              <!-- Building The Future, One <br> Human-Centered Product At A Time -->
+              Creating brands, and products <br> that resonates with people!
             </h1>
           </div>
         </div>

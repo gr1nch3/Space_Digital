@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "title": "UI-UX Experience"
+    "title": "UX & UI"
   },
   {
     "id": 2,
-    "title": "Web Development"
+    "title": "Branding"
   },
   {
     "id": 3,
-    "title": "Digital Marketing"
+    "title": "Engineering"
   },
   {
     "id": 4,
@@ -17,6 +17,6 @@
   },
   {
     "id": 5,
-    "title": "Mobile Solutions"
+    "title": "Mobile Apps"
   }
 ]

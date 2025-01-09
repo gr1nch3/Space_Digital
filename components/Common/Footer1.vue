@@ -9,7 +9,7 @@
                 we would love to hear from you.
               </h6>
               <h2 class="underline fz-60">
-                <a href="#0">hello@Bayone.com</a>
+                <a href="mailto:hello@spaceedigital.com">hello@spaceedigital.com</a>
               </h2>
             </div>
           </div>
@@ -25,29 +25,32 @@
               <h6 class="sub-title mb-30">Social Media</h6>
               <ul class="rest">
                 <li class="hover-this cursor-pointer">
-                  <a href="#0" class="hover-anim">Facebook</a>
+                  <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/space.digitals" class="hover-ani">Facebook</a>
                 </li>
                 <li class="hover-this cursor-pointer">
-                  <a href="#0" class="hover-anim">twitter</a>
+                  <a  target="_blank" rel="noopener noreferrer"  href="https://www.x.com/spaceedigital" class="hover-ani">twitter</a>
                 </li>
                 <li class="hover-this cursor-pointer">
-                  <a href="#0" class="hover-anim">LinkedIn</a>
+                  <a  target="_blank" rel="noopener noreferrer"  href="https://www.linkedin.com/company/spaceedigital" class="hover-ani">LinkedIn</a>
                 </li>
                 <li class="hover-this cursor-pointer">
-                  <a href="#0" class="hover-anim">Behance</a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/spacee.digital" class="hover-ani">Instagram</a>
                 </li>
               </ul>
             </div>
           </div>
+
           <div class="col-lg-3">
             <div class="column">
               <h6 class="sub-title mb-30">Our Office :</h6>
-              <p>Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
-              <h5 class="mt-15 underline">
-                <a href="#0">+2 456 34324 45</a>
+              <p>Old Road Monrovia, Liberia</p>
+              <h5 class="mt-15">
+                <a href="tel:+231 881 791 949">+231 881 791 949</a>
               </h5>
             </div>
           </div>
+
+
         </div>
       </div>
       <div class="container bord pt-30 pb-30 bord-thin-top">
@@ -64,6 +67,10 @@
                 <li>
                   <a href="/contact" class="animsition-link">Contact Us</a>
                 </li>
+
+                <li>
+                  <a href="/pricing" class="animsition-link">Pricing</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -71,15 +78,7 @@
             <div class="copyright d-flex">
               <div class="ml-auto">
                 <p class="fz-13">
-                  © 2024 Bayone is Proudly Powered by
-                  <span class="underline">
-                    <a
-                      href="https://themeforest.net/user/UiCamp"
-                      target="_blank"
-                    >
-                      UiCamp
-                    </a>
-                  </span>
+                  &copy; <span id="currentyear">{{ currentYear }}</span>  All Rights Reserved
                 </p>
               </div>
             </div>
@@ -91,7 +90,12 @@
 </template>
 
 <script setup>
+
+
 import { onMounted, onBeforeUnmount } from "vue";
+
+//get current year
+const currentYear = ref(new Date().getFullYear());
 
 const { subBg } = defineProps({
   subBg: Boolean,

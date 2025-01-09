@@ -2,7 +2,7 @@
   <header>
     <div class="caption">
       <div class="text-center">
-        <h1>Bayone</h1>
+        <h1>Space</h1>
         <h5 class="f-ultra-light">A PERFECT PLACE FOR YOUR CREATIVE PORTFOLIO.</h5>
       </div>
     </div>

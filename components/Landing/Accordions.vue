@@ -5,7 +5,7 @@
         <div class="col-lg-6 d-flex align-items-center justify-content-center">
           <div class="exp valign text-center">
             <div class="full-width">
-              <h2>12+</h2>
+              <h2>5+</h2>
               <h6 class="sub-title">Years of Experience</h6>
             </div>
           </div>

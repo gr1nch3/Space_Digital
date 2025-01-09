@@ -20,33 +20,36 @@
           </div>
         </div>
       </div>
+      
+     
+
       <div class="row">
         <div class="col-lg-10 offset-lg-1">
           <div class="row mt-80">
             <div class="col-md-4 sm-mb30">
+              <h3 class="f-bold text-u mt-5">Creative</h3><br>
               <ul class="list rest">
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Branding Strategy</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Digital Experiences</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Social Media</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Advertising</li>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span>Art Direction</li>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span>Brand Identity Design</li>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span>Product Design</li>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span>UX & UI</li>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span>Social Media Design</li>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span>Content Studio (Soon)</li>
               </ul>
             </div>
+
+
             <div class="col-md-4 sm-mb30">
+              <h3 class="f-bold text-u mt-5">Engineering</h3><br>
               <ul class="list rest">
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Branding Strategy</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Digital Experiences</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Social Media</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Advertising</li>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span>Software development</li>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span>Mobile application</li>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span>Web application</li>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span> AR & VR 3D development</li>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span>Venture Studio (Soon)</li>
               </ul>
             </div>
-            <div class="col-md-4">
-              <ul class="list rest">
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Branding Strategy</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Digital Experiences</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Social Media</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Advertising</li>
-              </ul>
-            </div>
+           
           </div>
           <div class="row numbers mt-80">
             <div class="col-lg-4">

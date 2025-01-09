@@ -5,9 +5,10 @@
         <div class="col-lg-11">
           <div class="vid-intro">
             <div class="video-container">
-              <video autoplay loop muted>
+              <img src="/assets/imgs/b7.jpg" alt="" />
+              <!-- <video autoplay loop muted>
                 <source src="/assets/vid/vid-startup.mp4" type="video/mp4" />
-              </video>
+              </video> -->
             </div>
           </div>
         </div>
