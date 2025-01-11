@@ -1,19 +1,20 @@
 [
   {
     "id": 1,
-    "title": "Human Centered Design",
-    "content": "Branding, User research, User experience, Social media design.  Brand Strategy & Brand Identity"
+    "title": "Creative",
+    "content": "Art Direction | Visual & Brand Identity | Brand Guidelines & Design Systems | Website E-Commerce & App | Design (Mobile & Desktop) | Wireframe & Prototyping | User Experience (UX) User Interface (UI) | Product Design Motion & 3D"
   },
   {
     "id": 2,
-    "title": "Web & Mobile Apps",
-    "content": "Mobile application development, Custom software, Databases, Software product implementation."
+    "title": "Engineering",
+    "content": "Front-End Development | Back-End Development | Application Development | CMS Implementation | Technical Architecture | AR & VR 3D development"
   },
   {
     "id": 3,
-    "title": "UX & Product Design",
-    "content": "User research, User interface and Experience design, Design thinking, Product design."
+    "title": "Human Centered Design",
+    "content": "Branding, User research, User experience, Social media design.  Brand Strategy & Brand Identity"
   },
+  
   {
     "id": 4,
     "title": "Augmented Reality Design",

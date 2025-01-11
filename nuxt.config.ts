@@ -32,15 +32,15 @@ export default defineNuxtConfig({
         },
         {
           name: 'keywords',
-          content: 'Vue Nuxtjs Template Bayone Multi-Purpose themeforest'
+          content: 'Vue Nuxtjs'
         },
         {
           name: 'description',
-          content: 'Bayone - Multi-Purpose Vue Nuxtjs Template'
+          content: 'Space Digital - Website'
         },
         {
           name: 'author',
-          content: 'UiCamp'
+          content: 'Space Digital'
         }
       ],
       "link": [

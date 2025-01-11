@@ -1,4 +1,5 @@
 <template>
+
   <section class="about">
     <div class="container">
       <div class="row">
@@ -16,6 +17,10 @@
       </div>
     </div>
     
+
+    
+
+
 
     <!-- landing section removed -->
     <!-- <div class="container section-padding">

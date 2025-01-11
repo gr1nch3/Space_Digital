@@ -4,7 +4,11 @@
       <div class="sec-head pb-20 bord-thin-bottom mb-80">
         <div class="d-flex align-items-center">
           <div>
-            <h3 class="f-bold text-u">Testimonials</h3>
+            <div class="row">
+              <div class="col-8"> <h3 class="f-bold ">See what others are
+                saying about us</h3></div>
+            </div>
+           
           </div>
           <div class="ml-auto">
             <div class="swiper-button-prev">

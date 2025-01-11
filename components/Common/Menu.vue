@@ -7,9 +7,9 @@
             <ul class="main-menu rest">
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
-                  <span class="link dmenu" @click="handleOpenDMenu"><span class="nm">01.</span>Home </span>
+                  <NuxtLink to="/" class="link dmenu"><span class="nm">01.</span>Home </NuxtLink>
                 </div>
-                <div class="sub-menu">
+                <!-- <div class="sub-menu">
                   <ul class="rest">
                     <li>
                       <div class="o-hidden">
@@ -18,6 +18,7 @@
                       </div>
                     </li>
                   </ul>
+
                   <ul class="rest">
                     <li>
                       <div class="o-hidden">
@@ -35,8 +36,8 @@
                         <a href="/landing" class="sub-link animsition-link" @click="closeMenu">Home Landing</a>
                       </div>
                     </li>
-                  </ul>
-                </div>
+                  </ul> 
+                </div> -->
               </li>
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
@@ -177,6 +178,9 @@
 </template>
 
 <script setup>
+//navigation
+
+
 const closeMenu = () => {
   document.querySelector('.hamenu').classList.remove("open");
 };

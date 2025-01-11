@@ -9,8 +9,10 @@
         <AboutIntro />
         <CoreValues />
         <AboutVideo />
-        <AboutTeam />
-        <AboutTestimonials />
+        
+        <!-- <AboutTeam /> -->
+        
+        <Founder />
       </main>
       <CommonFooter1 />
     </div>
@@ -19,10 +21,11 @@
 
 <script setup>
 import CoreValues from '~/components/About/CoreValues.vue';
+import Founder from '~/components/Founder/founder.vue';
 
 //= Page Head
 useHead({
-  titleTemplate: `%s - About`,
+  titleTemplate: `%s - Digital Excellence `,
   bodyAttrs: {
     class: 'main-bg'
   },
