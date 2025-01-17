@@ -1,0 +1,1 @@
+export { default } from "file:///C:/Users/jones/OneDrive/Desktop/Spacee/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"

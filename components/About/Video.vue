@@ -5,7 +5,7 @@
         <div class="col-lg-11">
           <div class="vid-intro">
             <div class="video-container">
-              <img src="/assets/imgs/b7.jpg" alt="" />
+              <img src="/assets/imgs/b8.jpg" alt="" />
               <!-- <video autoplay loop muted>
                 <source src="/assets/vid/vid-startup.mp4" type="video/mp4" />
               </video> -->

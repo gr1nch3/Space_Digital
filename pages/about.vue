@@ -25,7 +25,7 @@ import Founder from '~/components/Founder/founder.vue';
 
 //= Page Head
 useHead({
-  titleTemplate: `%s - Digital Excellence `,
+  titleTemplate: `%s - Human-Centered Design & Software development combined `,
   bodyAttrs: {
     class: 'main-bg'
   },
