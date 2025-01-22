@@ -6,7 +6,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "chmod +x node_modules/.bin/nuxt && nuxt prepare"
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.7.0",
@@ -14,6 +14,7 @@
     "nuxt": "^3.6.5"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.1.0",
     "swiper": "^8.4.6"
   }
 }
