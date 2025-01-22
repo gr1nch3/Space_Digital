@@ -10,9 +10,13 @@
         <CoreValues />
         <AboutVideo />
         
-        <!-- <AboutTeam /> -->
-        
         <Founder />
+        <!-- <AboutTeam /> -->
+       
+
+        
+        
+        
       </main>
       <CommonFooter1 />
     </div>
@@ -20,6 +24,8 @@
 </template>
 
 <script setup>
+
+
 import CoreValues from '~/components/About/CoreValues.vue';
 import Founder from '~/components/Founder/founder.vue';
 

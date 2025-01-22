@@ -40,7 +40,7 @@
             </div>
 
 
-            <div class="col-md-4 sm-mb30">
+            <div class="col-md-6 sm-mb30">
               <h3 class="f-bold text-u mt-5">Engineering</h3><br>
               <ul class="list rest">
                 <li class="fz-18 mb-15"><span class="mr-10">+</span>Front-End Development</li>
@@ -56,13 +56,13 @@
           </div>
 
           <div class="row numbers mt-80">
-            <div class="col-lg-5">
+            <div class="col-lg-6">
               <div class="item md-mb50">
                 <div class="d-flex align-items-center">
                   <div>
                     <h5 class=" text-u">Mission</h5> <br>
                     <div class="row">
-                      <p class="small-text opacity-8">To redefine digital excellence by merging human-centered design
+                      <p style="font-size: 16px;" class="small-text opacity-8">To redefine digital excellence by merging human-centered design
                         with cutting-edge
                         technology to create brands and products.</p>
                     </div>
@@ -72,15 +72,14 @@
               </div>
             </div>
 
-            <div class="col-lg-7">
+            <div class="col-lg-5">
               <div class="item md-mb50">
                 <div class="d-flex align-items-center">
                   <div>
                     <h5 class="text-u">Vision</h5> <br>
                     <div class="row">
-                      <p class="small-text opacity-8">Creating durable relationships through human-centered design and
-                        cutting-edge
-                        technology.</p>
+                      <p style="font-size: 16px;" class="small-text opacity-8">Creating durable relationships through human-centered design and
+                        cutting-edge technology.</p>
                     </div>
                   </div>
                 </div>
@@ -88,13 +87,12 @@
             </div>
           </div>
 
-          <div class="row mt-5">
-            
-            <div class="col-12"><br>
+          <div class="row">
+
+            <div style="margin-top: 10px;" class="col-12"><br>
               <h5 class="text-u">OUR APPROACH</h5><br>
-              <p class="small-text opacity-8"> We do not just build technologies, we build blooming relationships. We take the time 
-to understand our clients and their needs which allows us to build solutions that are 
-valuable and meaningful.</p>
+              <p style="font-size: 16px; " class="small-text opacity-8">
+                We do not just build technologies, we build blooming relationships. We take the time to understand our clients and their needs which allows us to build solutions that are valuable and meaningful.</p>
             </div>
           </div>
 

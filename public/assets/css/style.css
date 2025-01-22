@@ -3,6 +3,20 @@
 -----------------------------------------------------------------*/
 /* Typography
 -----------------------------------------------------------------*/
+:root{
+  --hover-color: #1a28ca;
+
+  --light-color: #00adee;
+
+  --black-gradient-background: linear-gradient(90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(19, 19, 19, 1) 100%);
+
+  --gradient-background: linear-gradient(90deg,
+      hsla(220, 92%, 42%, 1) 0%,
+      hsla(238, 52%, 37%, 1) 100%);
+  --btn-button: var(--gradient-background);
+}
 * {
   margin: 0;
   padding: 0;
@@ -1526,7 +1540,12 @@ img.left {
 }
 
 .underline a {
+  font-size: 50px !important;
   text-decoration: underline !important;
+}
+.underline a :hover{
+  color: var(--gradient-background) !important;
+  text-decoration: none !important;
 }
 
 .underline span {
@@ -6209,9 +6228,9 @@ footer .logo img {
 
 .testimonials .swiper-button-prev:hover,
 .testimonials .swiper-button-next:hover {
-  background: #f1da78;
-  border-color: #f1da78;
-  color: #0c0c0c;
+  background: var(--gradient-background);
+  border-color: white;
+  color: white;
 }
 
 .testimonials .swiper-pagination {
