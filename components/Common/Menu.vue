@@ -9,35 +9,7 @@
                 <div class="o-hidden">
                   <NuxtLink to="/" class="link dmenu"><span class="nm">01.</span>Home </NuxtLink>
                 </div>
-                <!-- <div class="sub-menu">
-                  <ul class="rest">
-                    <li>
-                      <div class="o-hidden">
-                        <span class="sub-link back" @click="handleCloseDMenu"><i class="pe-7s-angle-left"></i> Go
-                          Back</span>
-                      </div>
-                    </li>
-                  </ul>
-
-                  <ul class="rest">
-                    <li>
-                      <div class="o-hidden">
-                        <a href="/creative-agency" class="sub-link animsition-link" @click="closeMenu">Creative Agency</a>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="o-hidden">
-                        <a href="/creative-portfolio" class="sub-link animsition-link" @click="closeMenu">Creative
-                          Portfolio</a>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="o-hidden">
-                        <a href="/landing" class="sub-link animsition-link" @click="closeMenu">Home Landing</a>
-                      </div>
-                    </li>
-                  </ul> 
-                </div> -->
+             
               </li>
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
@@ -46,83 +18,33 @@
               </li>
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
-                  <span class="link dmenu" @click="handleOpenDMenu"><span class="nm">03.</span>Portfolio </span>
+                  <!-- <span class="link dmenu" @click="handleOpenDMenu"><span class="nm">03.</span>Portfolio </span> -->
+                  <NuxtLink to="/carousel-slider" class="link dmenu"><span class="nm">03.</span>Portfolio </NuxtLink>
                 </div>
                 <div class="sub-menu">
-                  <ul class="rest">
-                    <li>
-                      <div class="o-hidden">
-                        <span class="sub-link back" @click="handleCloseDMenu"><i class="pe-7s-angle-left"></i> Go
-                          Back</span>
-                      </div>
-                    </li>
-                  </ul>
+              
                   <div class="row">
                     <div class="col-md-6">
                       <ul class="rest">
-                        <li>
-                          <div class="o-hidden">
-                            <a href="/fullscreen" class="sub-link animsition-link" @click="closeMenu">Fullscreen
-                              Slider</a>
-                          </div>
-                        </li>
+                    
                         <li>
                           <div class="o-hidden">
                             <a href="/carousel-slider" class="sub-link animsition-link" @click="closeMenu">Carousel
                               Slider</a>
                           </div>
                         </li>
-                        <li>
-                          <div class="o-hidden">
-                            <a href="/half-slider" class="sub-link animsition-link" @click="closeMenu">Creative Slider</a>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="o-hidden">
-                            <a href="/interactive-full" class="sub-link animsition-link" @click="closeMenu">Interactive
-                              Full</a>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="o-hidden">
-                            <a href="/interactive-center" class="sub-link animsition-link" @click="closeMenu">Interactive
-                              Center</a>
-                          </div>
-                        </li>
+                     
                       </ul>
                     </div>
                     <div class="col-md-6">
                       <ul class="rest">
                         <li>
                           <div class="o-hidden">
-                            <a href="/interactive-inline" class="sub-link animsition-link" @click="closeMenu">Interactive
-                              Inline</a>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="o-hidden">
-                            <a href="/interactive-vertical" class="sub-link animsition-link"
-                              @click="closeMenu">Interactive Vertical</a>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="o-hidden">
                             <a href="/portfolio-fixed-text" class="sub-link animsition-link" @click="closeMenu">Creative
                               Portfolio</a>
                           </div>
                         </li>
-                        <li>
-                          <div class="o-hidden">
-                            <a href="/portfolio-grid" class="sub-link animsition-link" @click="closeMenu">Portfolio
-                              Grid</a>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="o-hidden">
-                            <a href="/portfolio-grid-classic" class="sub-link animsition-link"
-                              @click="closeMenu">Portfolio Classic</a>
-                          </div>
-                        </li>
+                       
                       </ul>
                     </div>
                   </div>
@@ -194,10 +116,10 @@ const handleMouseLeave = (event) => {
   Object.values(event.currentTarget.parentElement.children).forEach(el => el.style.opacity = "1");
 };
 
-const handleOpenDMenu = (event) => {
-  document.querySelector(".main-menu").classList.add("gosub");
-  event.currentTarget.parentElement.parentElement.querySelector(".sub-menu").classList.add("sub-open");
-};
+// const handleOpenDMenu = (event) => {
+//   document.querySelector(".main-menu").classList.add("gosub");
+//   event.currentTarget.parentElement.parentElement.querySelector(".sub-menu").classList.add("sub-open");
+// };
 
 const handleCloseDMenu = () => {
   document.querySelector(".main-menu").classList.remove("gosub");
