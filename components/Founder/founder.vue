@@ -32,7 +32,7 @@
         </div>
         <div class="col-lg-6">
           <div class="founder-container">
-            <img class="founder-img" src="/assets/imgs/main2.jpg" alt="" srcset="">
+            <img class="founder-img" src="public\assets\imgs\founder_2.jpg" alt="" srcset="">
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@
           </h4>
 
           <div class="profile-container">
-            <img class="profile-image" src="/assets/imgs/main.jpg" alt="" srcset="">
+            <img class="profile-image" src="public\assets\imgs\founder.jpg" alt="" srcset="">
             <div class="profile-info">
               <h4 class="name">
                 Harold T. Jones, Jr.

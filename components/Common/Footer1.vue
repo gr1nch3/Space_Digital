@@ -8,7 +8,7 @@
               <h6 class="sub-title opacity-8">
                 we would love to hear from you.
               </h6>
-              <h2 class="underline fz-60">
+              <h2 class="fz-60">
                 <a href="mailto:hello@spaceedigital.com">hello@spaceedigital.com</a>
               </h2>
             </div>
@@ -17,7 +17,7 @@
         <div class="row mt-80">
           <div class="col-lg-3">
             <div class="logo">
-              <img src="/assets/imgs/logo-light.png" alt="" />
+              <img src="/assets/imgs/logo-light.png" alt="logo" />
             </div>
           </div>
           <div class="col-lg-6">
