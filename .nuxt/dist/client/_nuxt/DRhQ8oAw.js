@@ -1,1 +1,0 @@
-import{_ as r,a as c}from"./CSVeVfDj.js";import{_ as a,I as _,o as m,c as l,b as o,S as f,F as p}from"./3doueHHu.js";const d={};function i(e,u){const n=r,s=c,t=_("SpeedInsights");return m(),l(p,null,[o(n),o(s),o(t),f(e.$slots,"default")],64)}const C=a(d,[["render",i]]);export{C as default};

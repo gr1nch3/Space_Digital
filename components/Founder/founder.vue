@@ -88,6 +88,9 @@
   .mobile-view{
     display: contents;
   }
+  .quote-text{
+    font-family: Plus Jakarta Sans, serif !important;
+  }
   
 }
 /* mobile view // */

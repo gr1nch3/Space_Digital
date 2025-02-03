@@ -1,1 +1,0 @@
-import{_ as n,a as t}from"./CSVeVfDj.js";import{u as a}from"./BdoQmBiM.js";import{o as c,c as m,b as e,S as l,F as _}from"./3doueHHu.js";const g={__name:"preview",setup(p){return a({link:[{rel:"stylesheet",href:"/landing-preview/css/preview-style.css"}]}),(s,i)=>{const o=n,r=t;return c(),m(_,null,[e(o),e(r),l(s.$slots,"default")],64)}}};export{g as default};
