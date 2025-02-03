@@ -95,10 +95,10 @@
 }
 @media screen and (max-width:531px){
   .quote-text{
-    font-family: Plus Jakarta Sans, serif !important;
+    font-family: Poppins !important;
   line-height: 30px !important;
-  font-size: 18px !important;
-  font-weight: 200 !important;
+  font-size: 19px !important;
+  font-weight: normal !important;
   max-width: 100% !important;
   }
   .founder {
