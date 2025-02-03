@@ -97,17 +97,19 @@
   .quote-text{
     font-family: Poppins !important;
   line-height: 30px !important;
-  font-size: 19px !important;
+  font-size: 20px !important;
   font-weight: normal !important;
   max-width: 100% !important;
   }
   .founder {
-  font-size: 8.5px !important;
+    font-family: Poppins !important;
+    font-weight: normal !important;
   
 }
 
 .name {
-  font-family: Plus Jakarta Sans, serif !important;
+  font-family: Poppins !important;
+  font-weight: normal !important;
   font-size: 15px !important;
 
 }
