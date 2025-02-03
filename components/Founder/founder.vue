@@ -93,6 +93,25 @@
   }
   
 }
+@media screen and (max-width:531px){
+  .quote-text{
+    font-family: Plus Jakarta Sans, serif !important;
+  line-height: 30px !important;
+  font-size: 18px !important;
+  font-weight: 200 !important;
+  max-width: 100% !important;
+  }
+  .founder {
+  font-size: 8.5px !important;
+  
+}
+
+.name {
+  font-family: Plus Jakarta Sans, serif !important;
+  font-size: 15px !important;
+
+}
+}
 /* mobile view // */
 
 
