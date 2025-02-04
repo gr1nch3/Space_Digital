@@ -22,8 +22,8 @@
       <h1 class="title text-center">
         Building Brands & Products <br> that resonates with people!
       </h1>
-      <p class="sub-text mt-3">
-        We develop web and mobile applications for <br> businesses.
+      <p class="sub-text">
+        <span class="develop">Develop</span>  &nbsp; | &nbsp; <span class="design">Design</span> 
       </p>
     </div>
   </div>
@@ -62,45 +62,34 @@
   font-family: "DM Sans", serif;
   line-height: 1.2;
   font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 3rem;
+}
+.develop{
+  border: 0.1px solid white;
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: 600;
+
+  background:linear-gradient(90deg, hsla(220, 92%, 42%, 1) 0%, hsla(238, 52%, 37%, 1) 100%);
+}
+.design{
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 10px;
 }
 
 /* Responsive Media Queries */
+
 @media screen and (max-width: 1025px) {
   .title {
     font-size: 50px;
   }
   .wrapper {
-    max-width: 85% !important;
+    max-width: 95% !important;
   }
 }
 
-@media screen and (max-width: 894px) {
-  .wrapper {
-    max-width: 85% !important;
-  }
-  .title {
-    font-size: 50px !important;
-  }
-}
 
-@media screen and (max-width: 613px) {
-  .sub-text {
-    font-size: 13px !important;
-  }
-  .title {
-    font-size: 30px !important;
-    max-width: 100% !important;
-  }
-  .wrapper {
-    padding: 0;
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 457px) {
-  .sub-text {
-    max-width: 100% !important;
-  }
-}
 
 </style>
