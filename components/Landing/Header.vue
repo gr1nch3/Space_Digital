@@ -48,7 +48,7 @@
 
 .wrapper {
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 100%;
   text-align: center;
 }
 
@@ -69,14 +69,17 @@
   .title {
     font-size: 50px;
   }
+  .wrapper {
+    max-width: 85% !important;
+  }
 }
 
 @media screen and (max-width: 894px) {
   .wrapper {
-    max-width: 100%;
+    max-width: 85% !important;
   }
   .title {
-    font-size: 40px !important;
+    font-size: 50px !important;
   }
 }
 
