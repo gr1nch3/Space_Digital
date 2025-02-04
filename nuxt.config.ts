@@ -47,6 +47,7 @@ export default defineNuxtConfig({
         { rel: 'shortcut icon', href: '/assets/imgs/favicon.ico' },
         // Google Fonts
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap' },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet' },
         // CSS
         { rel: 'stylesheet', href: '/assets/fonts/mona-sans/style.css' },
         { rel: 'stylesheet', href: '/assets/css/plugins.css' },

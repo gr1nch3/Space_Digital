@@ -110,7 +110,7 @@
 .name {
   font-family: Poppins !important;
   font-weight: normal !important;
-  font-size: 15px !important;
+  font-size: 18px !important;
 
 }
 }
@@ -139,13 +139,13 @@
 }
 
 .name {
-  font-family: Plus Jakarta Sans, serif;
-  font-size: 17px;
-  font-weight: 800;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .quote-text {
-  font-family: Plus Jakarta Sans, serif;
+  font-family: Poppins;
   line-height: 48px;
   font-size: 30px;
   font-weight: 200;

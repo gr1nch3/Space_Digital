@@ -37,8 +37,8 @@
                         <div class="cont">
                           <h4 class="fz-24">{{ item.quote }}</h4>
                           <div class="info mt-30">
-                            <h5 class="text-u ls1">{{ item.author }}</h5>
-                            <span class="sub-title opacity-8 mt-5">{{ item.client }}</span>
+                            <h5 style="font-size: 13px; text-transform: none !important;" class="text-u ls1  opacity-8">{{ item.author }}</h5>
+                            <span style="font-size: 13px; text-transform: none !important;" class="sub-title opacity-8 ">{{ item.client }}</span>
                           </div>
                         </div>
                       </div>
