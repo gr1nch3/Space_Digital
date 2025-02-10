@@ -1,95 +1,15 @@
-<!-- <template>
-  <header class="land-header valign">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-11">
-          <div class="caption text-center">
-            <h1 class="fz-60">
-              
-              Creating brands, and products <br> that resonates with people!
-            </h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-</template>  -->
-
 <template>
   <header class="land-header valign">
-    <div class="gradient">
-    <div class="container wrapper">
+    <div class="container wrapper justify-content-center">
       <h1 class="title text-center">
-        Building Brands & Products <br> that resonates with people!
+        Building Brands & Products <br> that resonate with people!
       </h1>
       <p class="sub-text">
         <span class="develop">Develop</span>  &nbsp; | &nbsp; <span class="design">Design</span> 
       </p>
     </div>
-  </div>
   </header>
-  
 </template>
 
-<style >
-.title {
-  font-family: "DM Sans", serif;
-  font-size: 70px;
-  line-height: 1;
-  font-weight: 600;
-
-  background: linear-gradient(45deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 43%, 1) 100%);
-  -webkit-background-clip: text;       
-  -webkit-text-fill-color: transparent; 
-  background-clip: text;                
-  color: transparent;     
-  
-}
-
-.wrapper {
-  margin: 0 auto;
-  max-width: 100%;
-  text-align: center;
-}
-
-.gradient {
-  width: 100%;
-  
-}
-
-.sub-text {
-  font-weight: 200;
-  font-family: "DM Sans", serif;
-  line-height: 1.2;
-  font-size: 18px;
-  margin-bottom: 0;
-  margin-top: 3rem;
-}
-.develop{
-  border: 0.1px solid white;
-  border-radius: 4px;
-  padding: 10px;
-  font-weight: 600;
-
-  background:linear-gradient(90deg, hsla(220, 92%, 42%, 1) 0%, hsla(238, 52%, 37%, 1) 100%);
-}
-.design{
-  border: 1px solid white;
-  border-radius: 4px;
-  padding: 10px;
-}
-
-/* Responsive Media Queries */
-
-@media screen and (max-width: 1025px) {
-  .title {
-    font-size: 50px;
-  }
-  .wrapper {
-    max-width: 95% !important;
-  }
-}
-
-
-
-</style>
+<!-- custom style -->
+<style src="/components/style/header.css" ></style>

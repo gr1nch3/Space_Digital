@@ -10,9 +10,9 @@
             <span>{{ item.category }}</span>
             <h5>{{ item.title }}</h5>
           </div>
-          <div class="ml-auto">
+          <!-- <div class="ml-auto">
             <h6>{{ item.year }}</h6>
-          </div>
+          </div> -->
         </div>
         <a :href="item.link" class="link-overlay animsition-link"></a>
       </div>

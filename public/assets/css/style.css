@@ -1423,7 +1423,8 @@ img.left {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 70px 0;
+  border: 1px solid red;
 }
 
 .section-ptb {
@@ -3709,6 +3710,8 @@ body.loaded {
   padding: 10px 30px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 40px;
+  background: var(--gradient-background);
+
 }
 
 .bg-gray .sub-title.bord,
@@ -3748,7 +3751,8 @@ body.loaded {
 /* About
 -----------------------------------------------------------------*/
 .about .vid-intro .video-container {
-  height: 450px;
+  border: 1px solid red;
+  height: auto;
 }
 
 .about .vid-intro .video-container video {
@@ -3762,16 +3766,19 @@ body.loaded {
   font-size: 44px;
   font-weight: 600;
   line-height: 1.2;
+  
 }
 
 .about .text-indent {
   text-indent: 20%;
+
+
 }
 
 .exp {
   width: 300px;
   height: 300px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(245, 245, 245, 0.1);
   border-radius: 50%;
 }
 
