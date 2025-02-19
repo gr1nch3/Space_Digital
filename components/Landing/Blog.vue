@@ -48,6 +48,16 @@
   </section>
 </template>
 
+<style>
+.more{
+  border: none !important;
+  color: white;
+  background: linear-gradient(90deg,
+      hsla(220, 92%, 42%, 1) 0%,
+      hsla(238, 52%, 37%, 1) 100%);;
+  }
+</style>
+
 <script setup>
 import { onMounted } from 'vue';
 //= Scritps

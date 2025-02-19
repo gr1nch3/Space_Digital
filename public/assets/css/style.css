@@ -1424,7 +1424,7 @@ img.left {
 
 .section-padding {
   padding: 70px 0;
-  border: 1px solid red;
+
 }
 
 .section-ptb {
@@ -3751,7 +3751,7 @@ body.loaded {
 /* About
 -----------------------------------------------------------------*/
 .about .vid-intro .video-container {
-  border: 1px solid red;
+
   height: auto;
 }
 
@@ -4865,6 +4865,7 @@ footer .logo img {
   width: calc(100% + 60px);
   margin-left: -30px;
   background: #0c0c0c;
+
 }
 
 .marquee:before {
@@ -4884,6 +4885,11 @@ footer .logo img {
 .marquee h4 {
   font-size: 70px;
   text-transform: uppercase;
+  background: linear-gradient(45deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 43%, 1) 100%);
+  -webkit-background-clip: text;       
+  -webkit-text-fill-color: transparent; 
+  background-clip: text;                
+  color: transparent;  
 }
 
 /* Interactive
