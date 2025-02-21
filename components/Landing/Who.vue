@@ -6,7 +6,7 @@
             <span class="sub-title bord mb-30">Who We Are?</span>
             <h3 class="text-u text-indent ls1">
               
-              we are building the future, one <br> human-centered product at a time. helping you grow by merging human-centered design with software engineering.
+              We are building the future, one <br> human-centered product at a time. helping you grow by merging human-centered design with software engineering.
               <!-- We create unexpected connections between
               creative people with a passion, and creative businesses on a mission, so they can make the best work of their lives. -->
             

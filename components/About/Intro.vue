@@ -4,12 +4,11 @@
       <div class="row">
         <div class="col-lg-10">
           <div class="text">
-            <span class="sub-title mb-15 opacity-8">- Who We Are?</span>
+            <span class="sub-title bord mb-15 opacity-8">- Who We Are?</span>
             <div class="text-reval">
               <h2 class="fz-50 text-u mb-30">
-                <span class="text">We are a creative studio with focus</span>
-                <span class="text">on set design, illustration and</span>
-                <span class="text"> motion design.</span>
+                <span class="text dm-sans-title">We are a creative studio with focus</span>
+                
               </h2>
             </div>
             <p>

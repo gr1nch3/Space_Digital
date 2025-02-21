@@ -15,14 +15,14 @@
                 class="justify-center container"
               >
                 <h5
-                  style="font-size: 28px; font-weight: 500"
-                  class=" f-bold text-u text-center"
+                  
+                  class="title"
                 >
                   Approach That Works
                 </h5>
                 <p
-                  style="margin-top: 16px"
-                  class="small-para text-center small-text opacity-8 mt-5"
+                  style="margin-top: 17px"
+                  class="small-para  opacity-8 mt-5"
                 >
                   We are humans creating remarkable digital <br />products and
                   brands for other humans. We care <br />
@@ -92,13 +92,7 @@
   </div>
 </template>
 
-<style>
-.small-para{
-  font-size: 14px;
-  color: white;
-}
-
-</style>
+<style src="/components/style/about.css" ></style>
 
 <script setup>
 //= Static Data

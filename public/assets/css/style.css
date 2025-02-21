@@ -17,6 +17,20 @@
       hsla(238, 52%, 37%, 1) 100%);
   --btn-button: var(--gradient-background);
 }
+.dm-sans-title{
+  font-family: "DM Sans", serif;
+  font-size: 50px;
+  line-height: 1;
+  font-weight: 600;
+  text-transform: none;
+
+  background: linear-gradient(45deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 43%, 1) 100%);
+  -webkit-background-clip: text;       
+  -webkit-text-fill-color: transparent; 
+  background-clip: text;                
+  color: transparent;     
+  
+}
 * {
   margin: 0;
   padding: 0;
