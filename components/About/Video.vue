@@ -34,30 +34,30 @@
                   class="d-flex align-items-center row grid-wrapper"
                 >
                   <div class="col-md-4 text-center">
-                    <i class="fas fa-chart-line fa-3x mb-3"></i>
+                    <img src="/public/assets/imgs/serv-icons/up.svg" alt="icon" class="img-size">
                     <p class="small-para">Empathize</p>
                   </div>
                   <div class="col-md-4 text-center">
-                    <i class="fas fa-chart-line fa-3x mb-3"></i>
+                    <img src="/public/assets/imgs/serv-icons/quality.svg" alt="icon" class="img-size">
                     <p class="small-para" >Define</p>
                   </div>
                   <div class="col-md-4 text-center">
-                    <i class="fas fa-chart-line fa-3x mb-3"></i>
+                    <img src="/public/assets/imgs/serv-icons/light.svg" alt="icon" class="img-size">
                     <p class="small-para" >Idetate</p>
                   </div>
                 </div>
 
                 <div style="margin-top: 20px;" class="row grid-wrapper">
                   <div class="col-md-4 text-center">
-                    <i class="fas fa-chart-line fa-3x mb-3"></i>
+                    <img src="/public/assets/imgs/serv-icons/award.svg" alt="icon" class="img-size">
                     <p class="small-para" >Prototype</p>
                   </div>
                   <div class="col-md-4 text-center">
-                    <i class="fas fa-chart-line fa-3x mb-3"></i>
+                    <img src="/public/assets/imgs/serv-icons/light.svg" alt="icon" class="img-size">
                     <p class="small-para" >Test</p>
                   </div>
                   <div class="col-md-4 text-center">
-                    <i class="fas fa-chart-line fa-3x mb-3"></i>
+                    <img src="/public/assets/imgs/serv-icons/loop.svg" alt="icon" class="img-size">
                     <p class="small-para" >Repeat</p>
                   </div>
                 </div>
