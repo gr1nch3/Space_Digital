@@ -14,10 +14,7 @@
                 style="margin-top: 50px; padding-top: 30px"
                 class="justify-center container"
               >
-                <h5
-                  
-                  class="title"
-                >
+                <h5 style="font-size: 40px !important;" class="title">
                   Approach That Works
                 </h5>
                 <p

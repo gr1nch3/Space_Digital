@@ -9,7 +9,7 @@
                 we would love to hear from you.
               </h6>
               <h2 class="fz-60">
-                <a href="mailto:hello@spaceedigital.com">hello@spaceedigital.com</a>
+                <a style="font-size: 40px;" href="mailto:hello@spaceedigital.com">hello@spaceedigital.com</a>
               </h2>
             </div>
           </div>
