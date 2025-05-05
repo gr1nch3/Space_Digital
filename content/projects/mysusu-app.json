@@ -1,0 +1,22 @@
+{
+  "title": "MySusu App",
+  "category": "Mobile Application Development",
+  "description": "A mobile banking application designed to modernize traditional susu savings methods with digital convenience and security.",
+  "client": "MySusu Financial Technologies",
+  "date": {
+    "day": 20,
+    "month": "February",
+    "year": 2024
+  },
+  "startDate": "2024-02-20",
+  "endDate": "2024-06-05",
+  "headerImage": "/assets/imgs/works/full/2.jpg",
+  "images": [
+    "/assets/imgs/works/full/2.jpg",
+    "/assets/imgs/projects/mysusu/screen1.jpg",
+    "/assets/imgs/projects/mysusu/screen2.jpg",
+    "/assets/imgs/projects/mysusu/screen3.jpg"
+  ],
+  "challenge": "Creating a user-friendly mobile application that preserves the community aspects of traditional susu savings while adding modern security features and digital convenience.",
+  "solution": "We developed an intuitive mobile app with peer-to-peer functionality, secure payment processing, and community features that maintain the social aspects of traditional susu while enhancing accessibility and security."
+}

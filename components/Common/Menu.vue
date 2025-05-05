@@ -19,7 +19,7 @@
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
                   <!-- <span class="link dmenu" @click="handleOpenDMenu"><span class="nm">03.</span>Portfolio </span> -->
-                  <NuxtLink to="/carousel-slider" class="link dmenu"><span class="nm">03.</span>Portfolio </NuxtLink>
+                  <NuxtLink to="/projects" class="link dmenu"><span class="nm">03.</span>Portfolio </NuxtLink>
                 </div>
                 <div class="sub-menu">
               
@@ -29,7 +29,7 @@
                     
                         <li>
                           <div class="o-hidden">
-                            <a href="/carousel-slider" class="sub-link animsition-link" @click="closeMenu">Carousel
+                            <a href="/projects" class="sub-link animsition-link" @click="closeMenu">Carousel
                               Slider</a>
                           </div>
                         </li>

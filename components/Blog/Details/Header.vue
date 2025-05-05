@@ -5,53 +5,57 @@
         <div class="col-lg-10">
           <div class="caption">
             <div class="sub-title fz-12">
-              <a href="#0"><span>Design</span></a>
+              <a :href="`/blog/?category=${category}`"><span>{{ category }}</span></a>
             </div>
-            <h1 class="fz-55 mt-30">Network of wormholes colonies extraordinary claims require.</h1>
+            <h1 class="fz-55 mt-30">{{ title }}</h1>
           </div>
           <div class="info d-flex mt-40 align-items-center">
             <div class="left-info">
               <div class="d-flex">
                 <div class="author-info">
                   <div class="d-flex align-items-center">
-                    <a href="#0" class="circle-60">
-                      <img src="/assets/imgs/blog/author1.jpg" alt="" class="circle-img" />
-                    </a>
                     <a href="#0" class="ml-20">
                       <span class="opacity-7">Author</span>
-                      <h6 class="fz-16">UiCamp</h6>
+                      <h6 class="fz-16">Space Digital</h6>
                     </a>
                   </div>
                 </div>
                 <div class="date ml-50">
                   <a href="#0">
                     <span class="opacity-7">Published</span>
-                    <h6 class="fz-16">August 6, 2021</h6>
+                    <h6 class="fz-16">{{ date.month }} {{ date.day }}, {{ date.year }}</h6>
                   </a>
                 </div>
-              </div>
-            </div>
-            <div class="right-info ml-auto">
-              <div>
-                <span class="pe-7s-comment fz-18 mr-10"></span>
-                <span class="opacity-7">02 Comments</span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="background bg-img mt-80" data-background="/assets/imgs/blog/f1.jpg"></div>
+    <!-- style as background image -->
+    <img class="background bg-img mt-80" :src="image" :style="{ backgroundImage: `url(${image})` }" />
   </header>
 </template>
 
 <script setup>
-import { onMounted } from 'vue';
-//= Common Scripts
-import loadBackgroudImages from '@/common/loadBackgroudImages';
+// Define the page prop
+defineProps({
+  category: {
+    type: String,
+    required: true
+  },
+  title: {
+    type: String,
+    required: true
+  },
+  image: {
+    type: String,
+    required: true
+  },
+  date: {
+    type: Object,
+    required: true
+  },
+})
 
-// Initialize background images when component is mounted
-onMounted(() => {
-  loadBackgroudImages();
-});
 </script>

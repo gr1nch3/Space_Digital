@@ -1,9 +1,9 @@
 <template>
   <section class="works thecontainer ontop sub-bg">
-    <div v-for="item in data" :key="item.id" class="panel">
+    <div v-for="item in page" :key="item.path" class="panel">
       <div class="item">
         <div class="img">
-          <img :src="item.img" alt="" />
+          <img :src="item.headerImage" alt="" />
         </div>
         <div class="cont d-flex align-items-center">
           <div>
@@ -14,7 +14,7 @@
             <h6>{{ item.year }}</h6>
           </div> -->
         </div>
-        <a :href="item.link" class="link-overlay animsition-link"></a>
+        <a :href="item.path" class="link-overlay animsition-link"></a>
       </div>
     </div>
   </section>
@@ -23,8 +23,10 @@
 <script setup>
 import { onMounted, onUnmounted } from 'vue';
 // Import the data from the JSON file
-import data from '@/data/Landing/works.json';
-
+const route = useRoute();
+const {data:page} = await useAsyncData(route.path, () => {
+  return queryCollection('projects').limit(6).order('startDate', 'DESC').all();
+});
 const handleResize = () => {
   const allTriggers = ScrollTrigger.getAll();
   if ((window.innerWidth < 991 && allTriggers.length) || (window.innerWidth > 991 && !allTriggers.length)) {

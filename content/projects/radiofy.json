@@ -1,0 +1,22 @@
+{
+  "title": "Radiofy",
+  "category": "App Design",
+  "description": "A streaming radio application that combines traditional radio programming with personalized content delivery.",
+  "client": "Radiofy Media",
+  "date": {
+    "day": 22,
+    "month": "April",
+    "year": 2024
+  },
+  "startDate": "2023-12-10",
+  "endDate": "2024-04-22",
+  "headerImage": "/assets/imgs/works/full/6.jpg",
+  "images": [
+    "/assets/imgs/works/full/6.jpg",
+    "/assets/imgs/projects/radiofy/screen1.jpg",
+    "/assets/imgs/projects/radiofy/screen2.jpg",
+    "/assets/imgs/projects/radiofy/player.jpg"
+  ],
+  "challenge": "Designing an app interface that respects traditional radio listening habits while incorporating modern streaming features and personalized content discovery.",
+  "solution": "We created an intuitive app design that maintains the familiar feel of radio while adding powerful discovery features, playlist customization, and a streamlined interface that appeals to both traditional radio listeners and digital streaming users."
+}

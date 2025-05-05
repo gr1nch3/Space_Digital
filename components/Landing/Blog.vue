@@ -19,20 +19,20 @@
           </div>
         </div>
       </div>
-      <div v-for="(item, index) in data" :key="item.id" :class="`item block wow fadeInUp`"
+      <div v-for="(item, index) in data" :key="item.path" :class="`item block wow fadeInUp`"
         :data-wow-delay="`${(index * 0.2) + 0.2}s`" data-fx="3">
-        <a :href="item.link" class="block__link animsition-link" :data-img="item.img"></a>
+        <a :href="item.path" class="block__link animsition-link" :data-img="item.image"></a>
         <div class="row">
           <div class="col-lg-6 cont">
             <div class="info">
-              <span class="tag">{{ item.tag }}</span>
-              <span class="date">{{ item.date }}</span>
+              <span class="tag">{{ item.category }}</span>
+              <span class="date">{{ item.date.month }} {{ item.date.day }}, {{ item.date.year }}</span>
             </div>
             <h3 class="text-u">{{ item.title }}</h3>
           </div>
           <div class="col-lg-3 offset-lg-3 d-flex align-items-center justify-end">
             <div class="ml-auto">
-              <a :href="item.readMoreLink" class="more mt-15 animsition-link">
+              <a :href="item.path" class="more mt-15 animsition-link">
                 <span>Continue Read <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -49,13 +49,14 @@
 </template>
 
 <style>
-.more{
+.more {
   border: none !important;
   color: white;
   background: linear-gradient(90deg,
       hsla(220, 92%, 42%, 1) 0%,
-      hsla(238, 52%, 37%, 1) 100%);;
-  }
+      hsla(238, 52%, 37%, 1) 100%);
+  ;
+}
 </style>
 
 <script setup>
@@ -63,7 +64,11 @@ import { onMounted } from 'vue';
 //= Scritps
 import HoverImgFx3 from '@/common/hoverEffect3';
 //= Static Data
-import data from '@/data/Landing/blog.json';
+// import data from '@/data/Landing/blog.json';
+const { data } = await useAsyncData(() => {
+  return queryCollection('blog').order('publishedDate', 'DESC').limit(3).all()
+})
+
 
 // Call the onMounted hook
 onMounted(() => {

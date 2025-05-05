@@ -5,7 +5,7 @@
         <div class="col-12">
           <div class="cont text-center">
             <p>
-              <a href="/landing" class="animsition-link">Home</a>
+              <a href="/" class="animsition-link">Home</a>
               <span class="ml-10 mr-10">/</span>
               <span>Blog List</span>
             </p>

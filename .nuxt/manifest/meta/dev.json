@@ -1,1 +1,1 @@
-{"id":"dev","timestamp":1741958752912,"matcher":{"static":{},"wildcard":{},"dynamic":{}},"prerendered":[]}
+{"id":"dev","timestamp":1746478338338,"matcher":{"static":{"/__nuxt_content/projects/sql_dump":{"prerender":true},"/__nuxt_content/blog/sql_dump":{"prerender":true}},"wildcard":{},"dynamic":{}},"prerendered":[]}

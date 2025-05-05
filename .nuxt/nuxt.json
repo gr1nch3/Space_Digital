@@ -1,9 +1,9 @@
 {
-  "_hash": "6K041e0zKf",
+  "_hash": "mn-pjG8p60RY95Yy_IY9tovcFEL3Kx8wwavaIMxo6I8",
   "project": {
-    "rootDir": "C:/Users/jones/OneDrive/Desktop/Spacee"
+    "rootDir": "/home/gr1nch3/Documents/TheInventory/external_projects/Space_Digital"
   },
   "versions": {
-    "nuxt": "3.15.0"
+    "nuxt": "3.17.1"
   }
 }

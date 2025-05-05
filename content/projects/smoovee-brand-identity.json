@@ -1,0 +1,21 @@
+{
+  "title": "Smoovee Brand Identity",
+  "category": "Digital Design",
+  "description": "A comprehensive brand identity design for Smoovee, creating a cohesive visual language across digital platforms.",
+  "client": "Smoovee Inc.",
+  "date": {
+    "day": 15,
+    "month": "January",
+    "year": 2024
+  },
+  "startDate": "2024-01-15",
+  "endDate": "2024-03-10",
+  "headerImage": "/assets/imgs/works/full/1.jpg",
+  "images": [
+    "/assets/imgs/works/full/1.jpg",
+    "/assets/imgs/projects/smoovee/detail1.jpg",
+    "/assets/imgs/projects/smoovee/detail2.jpg"
+  ],
+  "challenge": "Smoovee needed to establish a distinctive brand identity that would resonate with their target audience while maintaining flexibility across various digital touchpoints.",
+  "solution": "We developed a comprehensive brand system featuring a modern logo design, versatile color palette, and custom typography that effectively communicates Smoovee's brand values across all digital platforms."
+}

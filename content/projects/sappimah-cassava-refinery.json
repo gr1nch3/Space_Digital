@@ -1,0 +1,22 @@
+{
+  "title": "Sappimah Cassava Refinery",
+  "category": "Branding",
+  "description": "Complete brand identity development for Sappimah, an agricultural processing company specializing in cassava refinery.",
+  "client": "Sappimah Agricultural Industries",
+  "date": {
+    "day": 10,
+    "month": "November",
+    "year": 2023
+  },
+  "startDate": "2023-11-10",
+  "endDate": "2024-02-28",
+  "headerImage": "/assets/imgs/works/full/3.jpg",
+  "images": [
+    "/assets/imgs/works/full/3.jpg",
+    "/assets/imgs/projects/sappimah/logo.jpg",
+    "/assets/imgs/projects/sappimah/packaging.jpg",
+    "/assets/imgs/projects/sappimah/signage.jpg"
+  ],
+  "challenge": "Developing a brand identity that communicates both agricultural tradition and modern processing techniques while positioning Sappimah as a premium cassava products manufacturer.",
+  "solution": "We created a brand identity that balances agricultural heritage with modern processing capabilities, featuring earthy color tones complemented by clean, contemporary design elements that appeal to both B2B clients and end consumers."
+}

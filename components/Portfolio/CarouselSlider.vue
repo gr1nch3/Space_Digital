@@ -3,10 +3,10 @@
     <div class="full-width">
       <div class="gallery-img">
         <Swiper v-bind="swiperGalleryImageOptions" class="swiper-container">
-          <SwiperSlide v-for="item in data" :key="item.id">
+          <SwiperSlide v-for="item in page" :key="item.path">
             <div class="swiper-slide">
-              <div class="bg-img" :data-background="item.background" data-overlay-dark="3">
-                <a :href="item.link" class="animsition-link"></a>
+              <div class="bg-img" :data-background="item.headerImage" data-overlay-dark="3">
+                <a :href="item.path" class="animsition-link"></a>
               </div>
             </div>
           </SwiperSlide>
@@ -15,10 +15,10 @@
       <div class="gallery-text">
         <Swiper v-bind="swiperGalleryTextOptions"
           class="swiper-container swiper-container-initialized swiper-container-vertical">
-          <SwiperSlide v-for="item in data" :key="item.id">
+          <SwiperSlide v-for="item in page" :key="item.id">
             <div class="text">
-              <h4>{{ item.text.title }}</h4>
-              <h6><span>{{ item.text.subtitle }}</span></h6>
+              <h4>{{ item.title }}</h4>
+              <h6><span>{{ item.category }}</span></h6>
             </div>
           </SwiperSlide>
         </Swiper>
@@ -49,7 +49,10 @@ import { Navigation, Autoplay, Keyboard, Mousewheel, Pagination } from 'swiper';
 //= Scripts
 import loadBackgroudImages from '@/common/loadBackgroudImages';
 //= Static Data
-import data from '@/data/Portfolio/carousel-slider.json';
+const route = useRoute();
+const {data:page} = await useAsyncData(route.path, () => {
+  return queryCollection('projects').order('startDate', 'DESC').all();
+});
 
 const galleryImg = ref(null);
 const galleryText = ref(null);
